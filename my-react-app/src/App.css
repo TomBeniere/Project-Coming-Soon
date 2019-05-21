@@ -1,1 +1,138 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@font-face {
+  font-family: "glacial indiference";
+  src: url("./fonts/glacialindiference/GlacialIndifference-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "glacial indiference bold";
+  src: url("./fonts/glacialindiference/GlacialIndifference-Bold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #001028;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+header h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "glacial indiference";
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: -2.5px;
+}
+
+header p {
+  font-family: "Glacial Indifference";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0.5px;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+main #timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main p {
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+footer p {
+  color: #808291;
+  font-family: "Glacial Indifference";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
+
+.number {
+  color: #ec2e5f;
+  font-family: "glacial indiference";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+
+.time {
+  color: #808291;
+  font-family: "glacial indiference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+#form {
+  width: 940px;
+  height: 70px;
+}
+
+#button {
+  width: 170px;
+  height: 72px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: "glacial indiference";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border-radius: 0 5px 5px 0;
+  background-color: #642eec;
+}
+
+#email {
+  width: 770px;
+  height: 71px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+}
+
+#blank {
+  color: #ffffff;
+}
+/*# sourceMappingURL=App.css.map */
