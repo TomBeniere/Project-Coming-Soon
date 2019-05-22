@@ -73,27 +73,8 @@ footer {
     }
 }
 
-.number {
-    color: #ec2e5f;
-    font-family: "glacial indiference";
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 72px;
-    text-transform: uppercase;  
-}
-
-.time {
-    color: #808291;
-    font-family: "glacial indiference";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 72px;
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
-}
-
 #form {
-    width: 940px;
+    width: 960px;
     height: 70px;
 }
 
@@ -118,6 +99,7 @@ footer {
     height: 71px;
     border: none;
     outline: none;
+    padding-left: 20px;
     border-radius: 5px 0 0 5px;
     background-color: #ffffff;
 }
