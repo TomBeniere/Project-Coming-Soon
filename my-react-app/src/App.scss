@@ -69,7 +69,6 @@ footer {
 }
 
 #form {
-    width: 960px;
     height: 70px;
 }
 
@@ -129,9 +128,120 @@ text-transform: uppercase;
 letter-spacing: 1.6px;
 }
 
+@media only screen and (max-width: 971px) {
+#email {
+    width: 500px;
+}
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+}
 
 @media only screen and (max-width: 771px) {
+#email {
+    width: 400px;
+        }
+        main {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+}
 
+
+@media only screen and (max-width: 601px) {
+#email {
+    width: 300px;
+        }
+        main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 501px) {
+#email {
+    width: 250px;
+        }
+.number {
+    font-size: 90px; 
+}
+header > p {
+    font-size: 19px;
+}
+header > h1 {
+    font-size: 90px;
+}
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 441px) {
+#email {
+    width: 200px;
+        }
+.number {
+    font-size: 80px; 
+}
+header > p {
+    font-size: 18px;
+}
+header > h1 {
+    font-size: 80px;
+}
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 401px) {
+#email {
+    width: 170px;
+        }
+#button {
+    width: 140px;
+        }
+.number {
+    font-size: 65px; 
+}
+header > p {
+    font-size: 17px;
+}
+header > h1 {
+    font-size: 65px;
+}
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.temps {
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 391px) {
+#email {
+    width: 150px;
+        }
+#button {
+    width: 130px;
+        }
+.number {
+    font-size: 55px; 
+}
+header > p {
+    font-size: 16px;
+}
+header > h1 {
+    font-size: 55px;
+}
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 }
 
 

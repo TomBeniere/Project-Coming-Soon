@@ -37,7 +37,7 @@ class Timer extends React.Component {
 
     render() {
         return (
-            <Fragment className="pp">
+            <Fragment >
                 <div className="papa">
                     <div>
                         <div className="number">{this.formatte(this.jour)}</div>
