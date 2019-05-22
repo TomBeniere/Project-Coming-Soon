@@ -57,14 +57,6 @@ main {
   margin-bottom: 100px;
 }
 
-main #timer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 main p {
   font-family: "Glacial Indifference";
   font-size: 14px;
@@ -116,5 +108,34 @@ footer p {
 
 #blank {
   color: #ffffff;
+}
+
+.number {
+  color: #ec2e5f;
+  font-family: "glacial indiference";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.papa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.temps {
+  color: #808291;
+  font-family: "glacial indiference";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+  /* Text style for "Days" */
+  letter-spacing: 1.6px;
 }
 /*# sourceMappingURL=App.css.map */

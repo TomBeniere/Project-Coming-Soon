@@ -28,13 +28,34 @@ class Timer extends React.Component {
 
     }
 
+    formatte(chiffre) {
+        if (chiffre <= 9) {
+            return "0" + chiffre;
+        }
+        return chiffre;
+    }
+
     render() {
         return (
-            <Fragment>
-                <div>{this.jour}</div>
-                <div>{this.heure}</div>
-                <div>{this.minute}</div>
-                <div>{this.seconde}</div>
+            <Fragment className="pp">
+                <div className="papa">
+                    <div>
+                        <div className="number">{this.formatte(this.jour)}</div>
+                        <p className="temps">DAYS</p>
+                    </div>
+                    <div>
+                        <div className="number">{this.formatte(this.heure)}</div>
+                        <p className="temps">HOURS</p>
+                    </div>
+                    <div>
+                        <div className="number">{this.formatte(this.minute)}</div>
+                        <p className="temps">MINUTES</p>
+                    </div>
+                    <div>
+                        <div className="number">{this.formatte(this.seconde)}</div>
+                        <p className="temps">SECONDS</p>
+                    </div>
+                </div>
             </Fragment>
         );
     }
