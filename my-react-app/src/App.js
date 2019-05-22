@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './imgs/logo.png';
 import Timer from './Timer.js'
+import Icon from './imgs/icon.png';
 import './App.css';
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
           <Timer date="07/15/19"></Timer>
           <p>Stay tuned for updates</p>
           <form id="form" action="">
+            <img src={Icon} id="icon" alt="" />
             <input type="text" id="email" name="email" placeholder="Email Address" />
             <button id="button">Subscribe</button>
           </form>

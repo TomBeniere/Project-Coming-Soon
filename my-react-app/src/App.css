@@ -14,6 +14,10 @@
 }
 
 body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: #001028;
   color: #ffffff;
   display: -webkit-box;
@@ -76,10 +80,11 @@ footer p {
 }
 
 #form {
-  height: 70px;
+  height: 72px;
 }
 
 #button {
+  cursor: pointer;
   width: 170px;
   height: 72px;
   border: none;
@@ -96,13 +101,19 @@ footer p {
 }
 
 #email {
-  width: 770px;
+  width: 670px;
   height: 71px;
   border: none;
   outline: none;
-  padding-left: 20px;
+  padding-left: 65px;
   border-radius: 5px 0 0 5px;
   background-color: #ffffff;
+}
+
+#icon {
+  position: relative;
+  top: 4.4px;
+  left: 45px;
 }
 
 #blank {
@@ -150,7 +161,7 @@ footer p {
 
 @media only screen and (max-width: 771px) {
   #email {
-    width: 400px;
+    width: 350px;
   }
   main {
     margin-top: 30px;
@@ -158,9 +169,9 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 605px) {
   #email {
-    width: 300px;
+    width: 250px;
   }
   main {
     margin-top: 30px;
@@ -168,9 +179,9 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 501px) {
+@media only screen and (max-width: 510px) {
   #email {
-    width: 250px;
+    width: 190px;
   }
   .number {
     font-size: 90px;
@@ -187,9 +198,9 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 441px) {
+@media only screen and (max-width: 452px) {
   #email {
-    width: 200px;
+    width: 150px;
   }
   .number {
     font-size: 80px;
@@ -206,12 +217,12 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 405px) {
   #email {
-    width: 170px;
+    width: 130px;
   }
   #button {
-    width: 140px;
+    width: 130px;
   }
   .number {
     font-size: 65px;
