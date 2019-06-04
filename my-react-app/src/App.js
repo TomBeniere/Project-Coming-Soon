@@ -21,7 +21,7 @@ class App extends React.Component {
       this.state.display = false;
       this.error = true;
       this.state.myInputValue = "Erreur";
-      this.state.myInputValue.style.color = "red";
+      //this.state.myInputValue.style.color = "red";
     } else {
       this.state.display = true;
     }
