@@ -20,7 +20,7 @@ class App extends React.Component {
     if (this.state.myInputValue.indexOf("@") < 0) {
       this.state.display = false;
       this.error = true;
-      this.state.myInputValue = "Erreur";
+      this.state.myInputValue = "L'Email indiqué est incorrect, merci de saisir une adresse valide.";
       //this.state.myInputValue.style.color = "red";
     } else {
       this.state.display = true;
